@@ -1,0 +1,238 @@
+<!--Thomas Goodman 5113852-->
+<!--BIT703 A2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aotearoa Adventure Gear | Product Detail</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="top">
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg top-navbar py-3">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/BIT703-A2-01-AotearoaAdventureGearLogo-Graphic-2025-04.png" alt="Aotearoa Adventure Gear logo" class="logo-img">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Help</a></li>
+                        <li class="nav-item ms-lg-2">
+                            <a class="nav-link cart-btn" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping"></i> Your Cart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Product Detail -->
+        <section class="featured-section border-top">
+            <div class="container">
+                <div class="row g-5 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="placeholder-img h-100" style="min-height: 480px;">
+                            <img src="images\rain-jacket.avif" alt="Featured product image">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="h-100 d-flex flex-column justify-content-start">
+                            <h1 class="mb-3">Product title</h1>
+
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="rating fs-5">★★★★☆</div>
+                                <span class="small-muted">5 reviews</span>
+                            </div>
+
+                            <hr class="hr-custom">
+
+                            <div class="row align-items-center g-3 mb-4">
+                                <div class="col-md-5">
+                                    <p class="display-6 mb-0">$1232</p>
+                                </div>
+                                <div class="col-md-7">
+                                    <label for="productModel" class="visually-hidden">Select model</label>
+                                    <select id="productModel" class="form-select">
+                                        <option selected>Select Model</option>
+                                        <option>Small</option>
+                                        <option>Medium</option>
+                                        <option>Large</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <hr class="hr-custom">
+
+                            <p class="mb-4" style="max-width: 500px;">
+                                Designed for rugged Aotearoa conditions, this premium outdoor item offers comfort, durability,
+                                and performance whether you are tramping alpine trails or setting up camp for the weekend.
+                            </p>
+
+                            <div class="hero-line ms-0"></div>
+
+                            <div class="mt-4">
+                                <a href="cart.html" class="btn btn-theme">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Similar Products -->
+        <section class="similar-products-section border-top">
+            <div class="container">
+                <h2 class="section-title">Similar Products</h2>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="placeholder-img" style="width:120px; min-height:90px;">
+                                <img src="images\alpine-tent.jpg" alt="Similar product one">
+                            </div>
+                            <div>
+                                <h3 class="product-name mt-0">Product Name</h3>
+                                <div class="rating">★★★☆☆</div>
+                                <p class="product-price">$300</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="placeholder-img" style="width:120px; min-height:90px;">
+                                <img src="images\hiking-boots.avif" alt="Similar product two">
+                            </div>
+                            <div>
+                                <h3 class="product-name mt-0">Product Name</h3>
+                                <div class="rating">★★★☆☆</div>
+                                <p class="product-price">$300</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="placeholder-img" style="width:120px; min-height:90px;">
+                                <img src="images\led-torch.avif" alt="Similar product three">
+                            </div>
+                            <div>
+                                <h3 class="product-name mt-0">Product Name</h3>
+                                <div class="rating">★★★☆☆</div>
+                                <p class="product-price">$300</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="reviews-section border-top">
+            <div class="container">
+                <h2 class="mb-5">Reviews</h2>
+
+                <div class="row g-4 align-items-start mb-5">
+                    <div class="col-md-3">
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="border rounded-circle d-flex align-items-center justify-content-center" style="width:60px;height:60px;">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-1">JOHN DOE</h3>
+                                <p class="small-muted mb-1">august 14, 2018</p>
+                                <div class="rating">★★★☆☆</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <p>
+                            This product performed really well in wet and cold conditions. The build quality feels solid,
+                            the materials are durable, and it handled rough outdoor use without any issues. I would
+                            recommend it for New Zealand hiking and camping trips.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="hr-custom">
+
+                <div class="row g-4 align-items-start">
+                    <div class="col-md-3">
+                        <div class="d-flex align-items-start gap-3">
+                            <div class="border rounded-circle d-flex align-items-center justify-content-center" style="width:60px;height:60px;">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-1">JOHN DOE</h3>
+                                <p class="small-muted mb-1">august 14, 2018</p>
+                                <div class="rating">★★★☆☆</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9">
+                        <p>
+                            Great value for the price. It looks good, feels dependable, and suits both short day trips
+                            and longer adventures. The overall design is simple but practical, which makes it easy to use
+                            and pack.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container text-center">
+            <div class="row justify-content-center mb-3">
+                <div class="col-auto"><a href="index.html" class="nav-link d-inline">Home</a></div>
+                <div class="col-auto"><a href="index.html#about" class="nav-link d-inline">About</a></div>
+                <div class="col-auto"><a href="shop.html" class="nav-link d-inline">Shop</a></div>
+                <div class="col-auto"><a href="#footer" class="nav-link d-inline">Help</a></div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p class="mb-0"><i class="fa-regular fa-copyright"></i> Aotearoa Adventure Gear</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Anchor -->
+    <a href="#top" class="floating-anchor" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!--Thomas goodman 5113852-->
+<!--BIT703 A2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aotearoa Adventure Gear | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="top">
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg top-navbar py-3">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/BIT703-A2-01-AotearoaAdventureGearLogo-Graphic-2025-04.png" alt="Aotearoa Adventure Gear logo" class="logo-img">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <form class="d-flex mx-auto my-3 my-lg-0" role="search">
+                        <input class="form-control" type="search" placeholder="Search...">
+                    </form>
+
+                    <ul class="navbar-nav align-items-lg-center ms-lg-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Help</a></li>
+                        <li class="nav-item ms-lg-2">
+                            <a class="nav-link cart-btn" href="cart.html">
+                                <i class="fa-solid fa-cart-shopping"></i> Your Cart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="display-5">Adventure gear built for Aotearoa</h1>
+                <div class="hero-line"></div>
+
+                <div class="row justify-content-center g-4 my-4">
+                    <div class="col-md-3 col-10">
+                        <div class="placeholder-img">
+                            <img src="images\alpine-tent.jpg" alt="Adventure product feature">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-10">
+                        <div class="placeholder-img">
+                            <img src="images\trail-backpack.jpg" alt="Adventure product feature">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-10">
+                        <div class="placeholder-img">
+                            <img src="images\hiking-boots.avif" alt="Adventure product feature">
+                        </div>
+                    </div>
+                </div>
+
+                <a href="shop.html" class="btn btn-theme mt-3">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Featured Products Carousel -->
+        <section class="featured-section">
+            <div class="container">
+                <h2 class="section-title">Featured Products</h2>
+
+                <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-5">
+                                    <div class="product-card p-3 text-center">
+                                        <div class="placeholder-img">
+                                            <img src="images\alpine-tent.jpg" alt="Tent product">
+                                        </div>
+                                        <h3 class="product-name">Alpine Tent</h3>
+                                        <p class="product-price">$300</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5">
+                                    <div class="product-card p-3 text-center">
+                                        <div class="placeholder-img">
+                                            <img src="images\trail-backpack.jpg" alt="Backpack product">
+                                        </div>
+                                        <h3 class="product-name">Trail Backpack</h3>
+                                        <p class="product-price">$300</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-5">
+                                    <div class="product-card p-3 text-center">
+                                        <div class="placeholder-img">
+                                            <img src="images\hiking-boots.avif" alt="Boots product">
+                                        </div>
+                                        <h3 class="product-name">Hiking Boots</h3>
+                                        <p class="product-price">$320</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5">
+                                    <div class="product-card p-3 text-center">
+                                        <div class="placeholder-img">
+                                            <img src="images\rain-jacket.avif" alt="Jacket product">
+                                        </div>
+                                        <h3 class="product-name">Weather Jacket</h3>
+                                        <p class="product-price">$280</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <h2>Newsletter</h2>
+                        <p>Join our mailing list for outdoor gear updates, special offers, and new product releases across New Zealand.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="row g-2">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-light-custom w-100" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="featured-section">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="product-card p-3">
+                            <div class="placeholder-img">
+                                <img src="images\sleeping-bag.avif" alt="Sleeping bag">
+                            </div>
+                            <h3 class="product-name">Sleeping Bag</h3>
+                            <div class="d-flex justify-content-between">
+                                <span class="product-price">$300</span>
+                                <span class="rating">★★★☆☆</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="product-card p-3">
+                                    <div class="placeholder-img">
+                                        <img src="images\camp-stove.avif" alt="Camp stove">
+                                    </div>
+                                    <h3 class="product-name">Camp Stove</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="product-price">$300</span>
+                                        <span class="rating">★★★☆☆</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="product-card p-3">
+                                    <div class="placeholder-img">
+                                        <img src="images\trail-backpack.jpg" alt="Hiking pack">
+                                    </div>
+                                    <h3 class="product-name">Hiking Pack</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="product-price">$300</span>
+                                        <span class="rating">★★★☆☆</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="product-card p-3">
+                                    <div class="placeholder-img">
+                                        <img src="images\led-torch.avif" alt="Torch">
+                                    </div>
+                                    <h3 class="product-name">LED Torch</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="product-price">$300</span>
+                                        <span class="rating">★★★☆☆</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="product-card p-3">
+                                    <div class="placeholder-img">
+                                        <img src="images\rain-jacket.avif" alt="Rain jacket">
+                                    </div>
+                                    <h3 class="product-name">Rain Jacket</h3>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="product-price">$300</span>
+                                        <span class="rating">★★★☆☆</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about-section text-center">
+            <div class="container">
+                <h2 class="section-title">About Your Shop</h2>
+                <p class="mx-auto" style="max-width: 800px;">
+                    Aotearoa Adventure Gear supplies premium outdoor products designed for trampers, campers, hikers, and explorers throughout New Zealand.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3">
+                    <img src="BIT703-A2-01-AotearoaAdventureGearLogo-Graphic-2025-04.png" alt="Aotearoa Adventure Gear logo" class="logo-img mb-3">
+                    <p>1717 Harrison Street,<br>San Francisco, CA 94103, USA</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6>Main Menu</h6>
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="#footer">Help</a>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6>Company</h6>
+                    <a href="#">The Company</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6>Find Us On</h6>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom text-center">
+                <p class="mb-0"><i class="fa-regular fa-copyright"></i> Your Company Name</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Anchor -->
+    <a href="#top" class="floating-anchor" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

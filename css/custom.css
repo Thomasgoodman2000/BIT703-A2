@@ -1,0 +1,308 @@
+/* ========================================
+   Aotearoa Adventure Gear - Custom Styles
+ Thomas Goodman 5113852
+   ======================================== */
+
+:root {
+    --primary-dark: #294c4f;
+    --primary-blue: #5b7f99;
+    --light-bg: #f8f8f8;
+    --border-color: #d9d9d9;
+    --text-dark: #333333;
+    --text-light: #777777;
+    --white: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: var(--text-dark);
+    background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+p {
+    color: var(--text-light);
+    line-height: 1.7;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.top-navbar {
+    border-bottom: 1px solid #eee;
+    background-color: var(--white);
+}
+
+.logo-img {
+    height: 48px;
+    width: auto;
+}
+
+.nav-link {
+    color: var(--text-dark) !important;
+    margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-dark) !important;
+}
+
+.cart-btn {
+    background-color: #5e5e5e;
+    color: var(--white) !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0;
+}
+
+.hero-section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero-line {
+    width: 180px;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 1.5rem auto 2rem;
+}
+
+.search-bar-large {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.btn-theme {
+    background-color: #666666;
+    color: var(--white);
+    border: none;
+    border-radius: 0;
+    padding: 0.8rem 2rem;
+}
+
+.btn-theme:hover {
+    background-color: var(--primary-dark);
+    color: var(--white);
+}
+
+.btn-light-custom {
+    background-color: #ececec;
+    color: #666;
+    border: none;
+    border-radius: 0;
+    padding: 0.8rem 2rem;
+}
+
+.category-card,
+.product-card,
+.info-box,
+.checkout-box {
+    border: 1px solid var(--border-color);
+    background-color: var(--white);
+}
+
+.category-card img,
+.product-card img,
+.product-image-main,
+.summary-product-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.placeholder-img {
+    background-color: #f1f1f1;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    overflow: hidden;
+}
+
+.placeholder-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.featured-section,
+.newsletter-section,
+.about-section,
+.similar-products-section,
+.reviews-section,
+.checkout-section {
+    padding: 4rem 0;
+}
+
+.newsletter-section,
+.about-section,
+.checkout-section {
+    background-color: #fbfbfb;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.product-name {
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+}
+
+.product-price {
+    color: var(--primary-dark);
+    font-weight: 500;
+}
+
+.rating {
+    color: #999999;
+    font-size: 0.95rem;
+}
+
+.side-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.footer {
+    padding: 3rem 0 1rem;
+    border-top: 1px solid #eee;
+    background-color: var(--white);
+}
+
+.footer h6 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: var(--text-light);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.footer a:hover {
+    color: var(--primary-dark);
+}
+
+.footer-bottom {
+    border-top: 1px solid #eee;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    color: var(--text-light);
+}
+
+.floating-anchor {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-dark);
+    color: var(--white);
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.floating-anchor:hover {
+    color: var(--white);
+    background-color: #1d3739;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0;
+    min-height: 48px;
+}
+
+.checkout-step {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #aaaaaa;
+    margin-bottom: 2rem;
+}
+
+.checkout-step.active {
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.summary-box {
+    border-left: 1px solid #eee;
+    padding-left: 2rem;
+}
+
+.hr-custom {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1.5rem 0;
+}
+
+.option-box {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    min-height: 80px;
+}
+
+.card-option-selected {
+    border: 2px solid var(--primary-dark);
+    background-color: #f5f9f9;
+}
+
+.small-muted {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+@media (max-width: 991.98px) {
+    .summary-box {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+
+    .side-heading {
+        font-size: 2.2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .side-heading {
+        font-size: 1.8rem;
+    }
+
+    .logo-img {
+        height: 40px;
+    }
+}
